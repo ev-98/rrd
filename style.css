@@ -26,6 +26,20 @@ body{
     text-align: center;
 }
 
+.nav-container{
+    max-width:960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin:auto;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* .page-logo{
+    width: 50%;
+} */
+
 .fullscreen-video-wrap{
     position:absolute;
     top:0;
@@ -50,6 +64,20 @@ body{
     opacity: 0.85;
     z-index:1;
 }
+
+.header-logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+img {
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+  }
 
 .contents{
     z-index:2;
