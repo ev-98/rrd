@@ -35,10 +35,14 @@ body{
     text-align: center;
 }
 
+.nav-wrapper{
+    display: flex;
+    align-content: center;
+}
 
-/* .page-logo{
+.page-logo{
     width: 50%;
-} */
+}
 
 .fullscreen-video-wrap{
     position:absolute;
@@ -73,8 +77,13 @@ body{
 }
 
 
-img {
+.header-logo-img {
     align-items: center;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .page-logo-img {
     max-width: 100%;
     height: auto;
   }
