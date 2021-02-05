@@ -76,7 +76,6 @@ body{
   width: 75%;
 }
 
-
 .header-logo-img {
     align-items: center;
     max-width: 100%;
@@ -102,8 +101,49 @@ body{
 .contents ul{
     list-style-type: none;
     padding:0;
+    margin:0;
 }
 
 .terms p{
 margin:0;
+}
+
+.profile-icons{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .profile-icons > .btn {
+    background: none;
+    border: none;
+    color: white;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 5px;
+    margin: 5px
+  }
+
+  .profile-icons > .btn:hover {
+    color: green;
+  }
+
+  .nav-item{
+      color: white;
+  }
+
+  .nav-item:hover{
+    background:green;
+    border:none;
+    padding: 2px, 1px, 2px, 1px;
+}
+
+.nav-item-page{
+    color:black;
+}
+
+.nav-item-page:hover{
+    background:green;
+    border:none;
+    padding: 2px, 1px, 2px, 1px;
 }
